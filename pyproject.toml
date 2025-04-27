@@ -1,0 +1,11 @@
+[project]
+name = "ex-autolearning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "argparse>=1.4.0",
+    "selenium>=4.31.0",
+    "webdriver-manager>=4.0.2",
+]

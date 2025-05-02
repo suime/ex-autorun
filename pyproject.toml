@@ -7,13 +7,14 @@ requires-python = ">=3.12"
 dependencies = [
     "argparse>=1.4.0",
     "selenium>=4.31.0",
+    "textual>=3.1.1",
     "webdriver-manager>=4.0.2",
 ]
 
 
 [tool.uv]
 allow-insecure-host = ["files.pythonhosted.org"]
-
+native-tls = true
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",

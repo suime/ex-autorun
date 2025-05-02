@@ -1,7 +1,7 @@
 [project]
 name = "ex-autolearning"
 version = "0.1.0"
-description = "Add your description here"
+description = "자동수강 프로그램 멀티캠퍼스 버전"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -15,6 +15,8 @@ dependencies = [
 [tool.uv]
 allow-insecure-host = ["files.pythonhosted.org"]
 native-tls = true
+
+
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",
